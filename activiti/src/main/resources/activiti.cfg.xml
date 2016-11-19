@@ -7,7 +7,7 @@
 
 		<property name="jdbcUrl" value="jdbc:postgresql://localhost:5432/activiti" />
 		<property name="jdbcDriver" value="org.postgresql.Driver" />
-		<property name="jdbcUsername" value="activiti" />
+		<property name="jdbcUsername" value="postgres" />
 		<property name="jdbcPassword" value="qaz123" />
 
 		<property name="databaseSchemaUpdate" value="true" />
@@ -15,6 +15,18 @@
 		<property name="jobExecutorActivate" value="false" />
 		<property name="asyncExecutorEnabled" value="true" />
 		<property name="asyncExecutorActivate" value="false" />
+
+
+		<!-- history configuration -->
+		<property name="history" value="full"></property>
+
+
+		<!-- listeners -->
+		<property name="eventListeners">
+			<list>
+				<bean class="pl.mg.activiti.listener.TaskListener" />
+			</list>
+		</property>
 	</bean>
 
 </beans>
