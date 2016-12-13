@@ -5,10 +5,16 @@ import org.activiti.engine.delegate.event.ActivitiEventListener;
 
 public class TaskListener implements ActivitiEventListener {
 
+    
+    
+    //dsada
+    
+    //zmiany 2.2.01
+    
+    
     @Override
     public void onEvent(ActivitiEvent event) {
-        // TODO Auto-generated method stub
-
+        // zmiany 2.0.0
     }
 
     @Override
