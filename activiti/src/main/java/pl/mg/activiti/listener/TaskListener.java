@@ -5,15 +5,17 @@ import org.activiti.engine.delegate.event.ActivitiEventListener;
 
 public class TaskListener implements ActivitiEventListener {
 
+    
+    //zmiany na 2.1.0
+    
     @Override
     public void onEvent(ActivitiEvent event) {
-        // TODO Auto-generated method stub
+        // zmiany na 2.1.0
 
     }
 
     @Override
     public boolean isFailOnException() {
-        // TODO Auto-generated method stub
         return false;
     }
 
