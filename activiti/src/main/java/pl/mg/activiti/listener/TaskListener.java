@@ -10,8 +10,7 @@ public class TaskListener implements ActivitiEventListener {
     
     @Override
     public void onEvent(ActivitiEvent event) {
-        // zmiany na 2.1.0
-
+        // zmiany 2.0.0
     }
 
     @Override
